@@ -44,9 +44,3 @@ cc_binary {
     defaults: ["librmnetctl_defaults"],
     srcs: ["cli/rmnetcli.c"],
 }
-
-kernel_headers {
-    name: "generated_kernel_headers",
-    vendor: true,
-    recovery_available: true,
-}
